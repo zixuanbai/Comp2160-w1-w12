@@ -1,0 +1,34 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "PuckControl",
+            "id": "3d0d94fd-2a9c-43b0-af50-bae14a4d5617",
+            "actions": [
+                {
+                    "name": "MovePuck",
+                    "type": "Value",
+                    "id": "9e852e9f-d7b2-4bce-8083-12a8f374546f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "91811c8b-02e6-4846-b135-18dce3c2fffb",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePuck",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
